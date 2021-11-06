@@ -1,0 +1,41 @@
+{
+  "name": "gendiff",
+  "version": "1.0.0",
+  "description": "Difference Generator",
+  "main": "gendiff.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monoral01/gendiff.git"
+  },
+  "author": "monoral01",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monoral01/gendiff/issues"
+  },
+  "homepage": "https://github.com/monoral01/gendiff#readme",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "optionator": "^0.9.1",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "jest": "^27.2.5",
+    "jest-cli": "^27.2.5",
+    "lint-staged": "^11.2.6",
+    "prettier": "^2.4.1"
+  }
+}
